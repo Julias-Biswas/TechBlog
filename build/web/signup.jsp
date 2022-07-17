@@ -73,7 +73,7 @@
                                     </div>
                                     <div class="form-check text-center">
                                         <input type="checkbox" name="user_check1" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">agree <a href="#">terms & conditions</a></label>
+                                        <label class="form-check-label" for="exampleCheck1">Agree <a href="#">terms & conditions</a></label>
                                     </div>
                                     <br>
                                     <div class="container text-center" id="loader" style="display: none;">
@@ -138,7 +138,7 @@
 
                             if( data.trim()==='Done...' )
                             {
-                                swal("Sign Up Successfully! We redirecting to Sign In page.")
+                                swal("Good Job!","Sign Up Successfully! We redirecting to Sign In page.","success")
                                     .then((value) => {
                                         window.location = "signin.jsp"
                                 });
