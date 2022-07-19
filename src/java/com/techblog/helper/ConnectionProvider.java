@@ -24,7 +24,7 @@ public class ConnectionProvider
             if( con == null )
             {
                 /*  Driver Class Loaded with Full Package Name  */
-                Class.forName("com.mysql.jdbc.Driver");
+                Class.forName("com.mysql.cj.jdbc.Driver");
 
                 /*  Connection Between Java Application into Database  */
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/techblog","root","root");
