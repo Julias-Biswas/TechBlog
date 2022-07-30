@@ -69,7 +69,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputAbout1">User About</label>
-                                        <textarea type="text" name="user_about1" class="form-control" id="exampleInputAbout1" placeholder="Enter Something About Yourself"></textarea>
+                                        <textarea type="text" name="user_about1" class="form-control" id="exampleInputAbout1" placeholder="Enter Something About Yourself" style="resize: none;"></textarea>
                                     </div>
                                     <div class="form-check text-center">
                                         <input type="checkbox" name="user_check1" class="form-check-input" id="exampleCheck1">

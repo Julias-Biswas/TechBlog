@@ -218,7 +218,7 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row">Status : </th>
-                                                <td colspan="2"><textarea class="form-control" name="userAbout1" rows="3"><%= user.getAboutUser()%></textarea></td>
+                                                <td colspan="2"><textarea class="form-control" name="userAbout1" rows="3" style="resize: none;"><%= user.getAboutUser()%></textarea></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">New Pic : </th>
